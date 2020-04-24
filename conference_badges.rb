@@ -17,7 +17,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers) 
-  speakers.map { |name| }
+  speakers.map do |name| 
 
     badge_maker(name)
   end 
